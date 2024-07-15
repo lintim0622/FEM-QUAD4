@@ -1,0 +1,20 @@
+# beam length and height and thickness(width)
+L      5.0
+h      0.25
+w      0.5
+
+# mesh number
+Nx     50
+Ny     10
+
+# set material
+rho    100.0
+E      1.6875e+8
+v      0.3
+
+# set external force with[apply time] and [node - ID] and [vector]
+pid    280
+P      0.0   -58480.5
+
+# Boundary ID
+bid_list     0    550
